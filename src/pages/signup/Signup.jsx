@@ -44,7 +44,7 @@ const Signup = () => {
             />
         </label>
 
-      <button className="btn">Login</button>
+      <button className="btn">Signup</button>
       </form>
   )
 }
