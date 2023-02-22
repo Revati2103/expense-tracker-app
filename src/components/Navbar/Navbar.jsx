@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <ul>
-        <li className={styles.title}>myMoney</li>
+        <li className={styles.title}>TrackIt</li>
         { !user && (
         <>
           <li><Link to="/login">Login</Link></li>
@@ -21,9 +21,14 @@ export default function Navbar() {
         </>
         )}
 
-       { user && <li>
-          <button className="btn" onClick={logout}>Logout</button>
-        </li>}
+       { user && (
+       <>
+          <li>Hello, {user.displayName}</li>
+          <li>
+            <button className="btn" onClick={logout}>Logout</button>
+          </li>
+        </>
+        )}
 
       </ul>
     </nav>
