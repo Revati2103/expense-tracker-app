@@ -1,5 +1,7 @@
 # Expense tracker App
 
+Manage your finances - all at one place. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
